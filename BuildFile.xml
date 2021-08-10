@@ -1,0 +1,19 @@
+<buildfile>
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/Sources"/>
+
+<use name="CondCore/MetaDataService"/>
+<use name="CondCore/DBCommon"/>
+<use name="CondCore/DBOutputService"/>
+
+<use name="DataFormats/TrackReco"/>
+<use name="DataFormats/VertexReco"/>
+<use name="DataFormats/Provenance"/>
+
+<use name="PhysicsTools/UtilAlgos"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="HLTrigger/HLTcore"/>
+<flags EDM_PLUGIN="1"/>
+</buildfile>
